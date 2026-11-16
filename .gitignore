@@ -1,0 +1,21 @@
+# Python / Jupyter
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Library artefacts
+catboost_info/
+*.cbm
+*.model
+
+# Data (keep large/raw data out of git)
+data/
+*.parquet
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
