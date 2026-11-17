@@ -4,6 +4,14 @@ A hands-on tour of the models and habits that matter for predicting things from 
 
 Each notebook is short, self-contained and runnable top to bottom. Each one gives a brief explanation of the method, working examples on real or simulated data, and the takeaways worth remembering. Outputs are saved, so you can read them on GitHub without running anything.
 
+## Start here: reference notebooks
+
+| Notebook | What it's for |
+|---|---|
+| [Setup & installation](notebooks/setup_and_installation.ipynb) | installing Python, Jupyter, scikit-learn, XGBoost, LightGBM, CatBoost, Optuna and SHAP (venv, conda, Colab); troubleshooting; a check cell that imports and fits each library |
+| [pandas cheatsheet](notebooks/pandas_cheatsheet.ipynb) | runnable reference: reading, selecting, cleaning, strings, dates, group-by, merges, reshaping, leak-free feature engineering, quick plots, gotchas (pandas 3) |
+| [Code templates](notebooks/code_templates.ipynb) | copy-paste functions: line/bar/hist/scatter/box/heatmap/small-multiples plots, model diagnostics (pred vs actual, residuals, deciles, importance, ROC/PR, learning curves, CV comparison), metrics, `compare_models`, timer, save/load |
+
 ## Notebooks
 
 | # | Notebook | What you'll learn | Data |
